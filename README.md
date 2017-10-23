@@ -55,7 +55,7 @@ Por exemplo, a imagem abaixo mostra o grupo do bloco **HEADER** aberto. Neste, o
 
 Em todo projeto haverá um grupo **Info**, que reúne informações como cores utilizadas no projeto e algumas observações.
 
-Nesse projeto, o bloco que chamamos de **Showcase** (vitrine) possui um vídeo como background. Esse vídeo precisa ter origem no **VIMEO**, seu comportamento deve ser responsivo (quando a largura da tela for alterada o vídeo deve se ajustar à tela como acontece com o ![desse plugin JS](http://vodkabears.github.io/vide/)) e, no celular, o vídeo deve ser substituído por uma imagem estática. 
+Nesse projeto, o bloco que chamamos de **Showcase** (vitrine) possui um vídeo como background. Esse vídeo precisa ter origem no **VIMEO**, seu comportamento deve ser responsivo (quando a largura da tela for alterada o vídeo deve se ajustar à tela como acontece com o ![desse plugin JS](//vodkabears.github.io/vide/)) e, no celular, o vídeo deve ser substituído por uma imagem estática. 
 
 Em resumo: você irá criar um versão do *Vide* que trabalhe com os vídeos do Vimeo, ou procurar algum que alguém já tenha feito.
 
