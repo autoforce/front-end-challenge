@@ -85,18 +85,8 @@ Itens que serão avaliados no Front-End Challenge:
 
 ### Cronograma
 
-O candidato deve confirmar sua participação enviando email para **desenvolvimento@autoforce.com.br**. A partir da confirmação da AutoForce, o candidato terá 7 dias corridos para enviar o trabalho.
+O candidato deve confirmar sua participação enviando email para **desenvolvimento@autoforce.com**.
 
-Confira o cronograma do processo seletivo:
-
-- Prazo para conclusão do desafio: 7 dias contados a partir do e-mail de confirmação do candidato;
-
-- Resultado do Frond-End Challenge: 8 de novembro;
-
-- Semana de entrevistas: 9 a 13 de novembro;
-
-- Resultado final: 23 de novembro.
-
-Dúvidas também podem ser enviadas para o email **desenvolvimento@autoforce.com.br**, que ficaremos muito felizes em solucioná-las.
+Dúvidas também podem ser enviadas para o email **desenvolvimento@autoforce.com**, que ficaremos muito felizes em solucioná-las.
 
 
