@@ -14,6 +14,11 @@ Dê o melhor de si e que a força esteja com você.
 
 - Não utilize o material disponibilizado pela AutoForce para outros fins que não sejam a realização deste desafio.
 
+## O Prazo
+
+Como estamos em um processo de recrutamento contínuo, não há prazo limite para a entrega do desafio.
+
+Porém, comprometimento, entusiasmo e dedicação também são características avaliadas neste desafio. Por isso, dê o melhor de si e tente entregá-lo o mais rápido que conseguir. Assim você demonstra que realmente tem o espírito intraempreendedor que procuramos.
 
 ## O desafio
 
@@ -55,7 +60,7 @@ Por exemplo, a imagem abaixo mostra o grupo do bloco **HEADER** aberto. Neste, o
 
 Em todo projeto haverá um grupo **Info**, que reúne informações como cores utilizadas no projeto e algumas observações.
 
-Nesse projeto, o bloco que chamamos de **Showcase** (vitrine) possui um vídeo como background. Esse vídeo precisa ter origem no **VIMEO**, seu comportamento deve ser responsivo (quando a largura da tela for alterada o vídeo deve se ajustar à tela como acontece com o http://vodkabears.github.io/vide)) e, no celular, o vídeo deve ser substituído por uma imagem estática. 
+Nesse projeto, o bloco que chamamos de **Showcase** (vitrine) possui um vídeo como background. Esse vídeo precisa ter origem no **VIMEO**, seu comportamento deve ser responsivo (quando a largura da tela for alterada o vídeo deve se ajustar à tela como acontece com o http://vodkabears.github.io/vide) e, no celular, o vídeo deve ser substituído por uma imagem estática. 
 
 Em resumo: você irá criar um versão do *Vide* que trabalhe com os vídeos do Vimeo, ou procurar algum que alguém já tenha feito.
 
@@ -83,10 +88,8 @@ Itens que serão avaliados no Front-End Challenge:
 
 - **Bom gosto:** o uso de técnicas para deixar a navegação fluida e agradável.
 
-### Cronograma
+### Dúvidas
 
-O candidato deve confirmar sua participação enviando email para **desenvolvimento@autoforce.com**.
-
-Dúvidas também podem ser enviadas para o email **desenvolvimento@autoforce.com**, que ficaremos muito felizes em solucioná-las.
+Dúvidas podem ser enviadas para o email **desenvolvimento@autoforce.com**, que ficaremos muito felizes em solucioná-las.
 
 
