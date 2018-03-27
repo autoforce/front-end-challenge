@@ -24,7 +24,9 @@ Porém, comprometimento, entusiasmo e dedicação também são características 
 
 Você está familiarizado com o Photoshop (ou qualquer outro software que possa abrir sem alterar os elementos de um PSD)? Não? Então é melhor colocar uns tutoriais para rodar.
 
-Esse desafio consiste na implementação do layout, em **PSD**, da versão reduzida de um dos nossos produtos. Você pode baixá-lo ![clicando aqui](https://github.com/autoforce/front-end-challenge/blob/master/public/landing-page.psd). Ele será sua referência para a execução deste desafio. Abaixo estão as instruções para executá-lo da melhor forma possível.
+Esse desafio consiste na **CODIFICAÇÃO** de layout **JÁ EXISTENTE**, da versão reduzida de um dos nossos produtos. Estamos disponibilizando o **PSD**, ele será sua referência para a execução deste desafio. Abaixo estão as instruções para executá-lo da melhor forma possível. Você pode baixá-lo ![clicando aqui](https://github.com/autoforce/front-end-challenge/blob/master/public/landing-page.psd).
+
+## Como usar o PSD
 
 ### Tamanhos de fontes e espaços
 
