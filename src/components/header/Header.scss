@@ -1,6 +1,123 @@
-h1{
-  color: blue;
+
+.header{
+  z-index: 999;
 }
-* {
-  text-shadow: 0 1em .3em rgba(0,0,0,0.3);
+
+.navbar{
+  margin: 19px 0;
+  .navbar-brand{
+    margin-right: 58.5px;
+  }
+
+  .nav-item{
+    .nav-link{
+      padding: 4px 12.5px !important;
+      font-size: 12px;
+      color: #fff;
+    }
+    &:hover{
+      .nav-link{
+        color: #fff;
+      }
+    }
+  }
+
+  .dropdown-menu{
+    border-radius: 0;
+    padding: 10px 0;
+    .dropdown-item{
+      font-size: 12px;
+      padding: 5px 17px;
+    }
+  }
+  .modelos{
+    .dropdown-menu{
+      height: 270px;
+      overflow: auto;
+    }
+    .dropdown-item{
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 9px 17px;
+      .modelo{
+        margin: 0 9px 0 32px;
+      }
+    }
+  }
+
+  .phones{
+    .phones-box{
+      overflow: hidden;
+      position: absolute;
+      top: 46px;
+      box-shadow: 0 0 31px rgba(0,0,0,0.4);
+    }
+    .btn-secondary{
+      border-radius: 0;
+      background-color: transparent;
+      color:#fff;
+      border: solid 2px #fff;
+      font-size:14px;
+      padding: 4px 15px;
+      box-shadow:none;
+
+      &:active{
+        background-color: transparent;
+        box-shadow:none !important;
+        border: solid 2px #fff;
+      }
+
+      .fa-phone{
+        font-size: 12px;
+      }
+      > .fa-chevron-down{
+        margin-left: 16px;
+        font-size: 10px;
+      }
+    }
+
+    .phones-items{
+      width: 260px;
+      .btn-secondary{
+        color: #333;
+        width: 100%;
+        border-bottom: solid 1px #d4d4d4;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 9;
+        &[aria-expanded="true"]{
+          color: #b71d3e;
+          .fa-chevron-down{
+            transform: rotate(180deg);
+          }
+        }
+        &:last-child{
+          border: 0;
+          box-shadow: none;
+          z-index: 10;
+        }
+        .fa-chevron-down{
+          font-size: 12px;
+          transition: .3s;
+        }
+      }
+
+      .card-body{
+        padding: 0;
+        .card-body{
+          background: #b71d3e;
+          padding: 0.5rem;
+          box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2) inset;
+        }
+      }
+    }
+  }
+
+  .brand-horizontal{
+    margin-left: 50.5px;
+  }
 }
