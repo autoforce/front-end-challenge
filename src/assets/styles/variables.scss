@@ -1,0 +1,142 @@
+/* COLOR */
+$color-primary-base:        #b71d3e;
+$color-primary-dark:        darken($color-primary-base, 12%);
+$color-primary-light:       lighten($color-primary-base, 15%);
+
+$color-secondary-base:      #00ab54;
+$color-secondary-dark:      darken($color-secondary-base, 12%);
+$color-secondary-light:     lighten($color-secondary-base, 15%);
+
+$color-gray-base:           #242424;
+$color-gray-darker:         #2a2a2a;
+$color-gray-dark:           #797979;
+$color-gray:                #c6c6c6;
+$color-gray-light:          #eaeaea;
+$color-gray-lighter:        #f4f4f4;
+$color-bluish-gray:         #273341;
+$color-white:               #ffffff;
+$color-black:               #1c1c1c;
+$color-darkness:            #141518;
+
+$color-success:             #2d9c5d;
+$color-info:                #5bc0de;
+$color-warning:             #ffa628;
+$color-danger:              #d9534f;
+
+$color-flickr:              #ff0084;
+$color-github:              #000000;
+$color-linkedin:            #007bb6;
+$color-pinterest:           #cb2027;
+$color-skype:               #00aff0;
+$color-behance:             #000000;
+$color-facebook:            #3c599f;
+$color-foursquare:          #1cafec;
+$color-google:              #cf1717;
+$color-instagram:           #2a5b83;
+$color-lastfm:              #d21309;
+$color-steam:               #000000;
+$color-vine:                #00a478;
+$color-wordpress:           #21759a;
+$color-yahoo:               #572c73;
+$color-soundcloud:          #f7620e;
+$color-vimeo:               #1ab7ea;
+$color-spotify:             #1ed760;
+$color-twitter:             #33ccff;
+$color-whatsapp:            #179653;
+$color-youtube:             #ce1525;
+$color-telegram:            #0088cc;
+
+$color-background-base:     #2a2a2a;
+$color-background-dark:     darken($color-background-base, 8%);
+$color-background-light:    lighten($color-background-base, 15%);
+
+$color-font:                $color-white;
+
+$color-header-base:         $color-gray-darker;
+
+$color-footer-base:         $color-gray-darker;
+$color-footer-dark:         darken($color-footer-base, 8%);
+$color-footer-light:        lighten($color-footer-base, 15%);
+
+/* FONT */
+$font-family-base:              'Open Sans', sans-serif;
+$font-family-secondary:         'Open Sans', sans-serif;
+
+$font-size-base:            14px;
+$font-size-small:           12px;
+$font-size-wee:             10px;
+$font-size-large:           ceil($font-size-base * 1.25);   // 18px
+$font-size-h1:              floor($font-size-base * 2.6);   // 36px
+$font-size-h2:              floor($font-size-base * 2.15);  // 30px
+$font-size-h3:              ceil($font-size-base * 1.7);    // 24px
+$font-size-h4:              ceil($font-size-base * 1.25);   // 18px
+$font-size-h5:              ceil($font-size-base * 1.125);  // 16px
+$font-size-h6:              ceil($font-size-base * 0.85);   // 12px
+
+$font-weight-thin:          100;
+$font-weight-extra-light:   200;
+$font-weight-light:         300;
+$font-weight-normal:        normal;
+$font-weight-medium:        500;
+$font-weight-semi-bold:     600;
+$font-weight-bold:          700;
+$font-weight-extra-bold:    800;
+$font-weight-ultra-bold:    900;
+
+$text-color:                $color-gray-darker;
+$link-color:                $color-primary-base;
+$link-hover-color:          $color-primary-dark;
+$link-hover-decoration:     underline;
+
+$padding-tiny:              5px;
+$padding-wee:               10px;
+$padding-small:             15px;
+$padding-base:              20px;
+$padding-middle:            25px;
+$padding-extra:             30px;
+$padding-large:             35px;
+$padding-big:               40px;
+
+$margin-tiny:               5px;
+$margin-wee:                10px;
+$margin-small:              15px;
+$margin-base:               20px;
+$margin-middle:             25px;
+$margin-extra:              30px;
+$margin-large:              35px;
+$margin-big:                40px;
+
+$z-index-force:             9999;
+$z-index-aheader:           25;
+$z-index-ahead:             20;
+$z-index-base:              15;
+$z-index-behind:            10;
+$z-index-behinder:          5;
+$z-index-background:        0;
+
+$border-radius:             3px;
+$border:                    1px solid $color-gray-light;
+
+$time-delay:                0.05s;
+$time-duration:             0.25s;
+
+/* Padding between columns */
+$grid-gutter-width:         20px;
+
+/* Width container */
+$container-large-desktop:   (940px + $grid-gutter-width);
+
+@function double($value) {
+
+  @return $value * 2;
+}
+
+@function triple($value) {
+
+  @return $value * 3;
+}
+
+@function half($value) {
+
+  @return $value / 2;
+}
