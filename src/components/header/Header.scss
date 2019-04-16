@@ -34,6 +34,7 @@
     .dropdown-menu{
       height: 270px;
       overflow: auto;
+      border-radius: $border-radius;
     }
     .dropdown-item{
       font-weight: 600;
