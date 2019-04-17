@@ -38,14 +38,14 @@
       overflow: auto;
       border-radius: $border-radius;
     }
-    a{
+    .dropdown-item{
       font-weight: $font-weight-semi-bold;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 9px 17px;
+      padding: $padding-wee $padding-small;
       .modelo{
-        margin: 0 9px 0 32px;
+        margin: 0 $margin-wee 0 $margin-extra;
       }
     }
   }
