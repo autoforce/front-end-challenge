@@ -1,29 +1,30 @@
 # front-end-challenge
 
-## Project setup
+> Projeto Landing Page Grand Motors
+
+## Instalar dependências
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Hot Reload" (Recarga Automática)
+Ao executar esse comando todas as instâncias desse componente serão trocadas sem recarregar a página. Ele ainda preserva o estado atual de sua aplicação e dos componentes trocados
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compila e minifica para produção
 ```
 npm run build
 ```
 
-### Run your tests
+### Testar os componentes
 ```
 npm run test
 ```
 
-### Lints and fixes files
+### Lints e corrige arquivos
+Conabdo para detectar problemas no padrão de código e também verificar se o mesmo se encontra nos padrões de nossa styleguide
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
