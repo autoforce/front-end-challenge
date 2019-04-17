@@ -1,32 +1,34 @@
 
 .header{
-  z-index: 999;
+  z-index: $z-index-force;
 }
 
 .navbar{
-  margin: 19px 0;
+  margin: $margin-base 0;
   .navbar-brand{
-    margin-right: 58.5px;
+    margin-right: $margin-big;
   }
 
-  .nav-item{
-    .nav-link{
-      padding: 4px 12.5px !important;
-      font-size: 12px;
-      color: #fff;
+  .navbar-nav{
+    > li{
+    > a{
+      padding: $padding-tiny $padding-small !important;
+      font-size: $font-size-small;
+      color: $color-font;
     }
-    &:hover{
-      .nav-link{
-        color: #fff;
+      &:hover{
+        .a{
+          color: $color-font;
+        }
       }
     }
   }
 
   .dropdown-menu{
     border-radius: 0;
-    padding: 10px 0;
-    .dropdown-item{
-      font-size: 12px;
+    padding: $padding-wee 0;
+    a{
+      font-size: $font-size-small;
       padding: 5px 17px;
     }
   }
@@ -36,8 +38,8 @@
       overflow: auto;
       border-radius: $border-radius;
     }
-    .dropdown-item{
-      font-weight: 600;
+    a{
+      font-weight: $font-weight-semi-bold;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -58,20 +60,20 @@
     .btn-secondary{
       border-radius: 0;
       background-color: transparent;
-      color:#fff;
-      border: solid 2px #fff;
-      font-size:14px;
+      color:$color-font;
+      border: solid 2px $color-font;
+      font-size: $font-size-base;
       padding: 4px 15px;
       box-shadow:none;
 
       &:active{
         background-color: transparent;
         box-shadow:none !important;
-        border: solid 2px #fff;
+        border: solid 2px $color-font;
       }
 
       .fa-phone{
-        font-size: 12px;
+        font-size: $font-size-small;
       }
       > .fa-chevron-down{
         margin-left: 16px;
@@ -82,27 +84,32 @@
     .phones-items{
       width: 260px;
       .btn-secondary{
-        color: #333;
+        color: $color-gray-base;
+        border:0;
         width: 100%;
-        border-bottom: solid 1px #d4d4d4;
+        border-bottom: $border;
         justify-content: space-between;
         display: flex;
         align-items: center;
         position: relative;
         z-index: 9;
         &[aria-expanded="true"]{
-          color: #b71d3e;
+          color: $color-primary-base;
           .fa-chevron-down{
             transform: rotate(180deg);
           }
         }
+        &:active{
+          background: transparent;
+          color: $color-primary-base;
+        }
         &:last-child{
           border: 0;
           box-shadow: none;
-          z-index: 10;
+          z-index: $z-index-behind;
         }
         .fa-chevron-down{
-          font-size: 12px;
+          font-size: $font-size-small;
           transition: .3s;
         }
       }
@@ -110,7 +117,7 @@
       .card-body{
         padding: 0;
         .card-body{
-          background: #b71d3e;
+          background: $color-primary-base;
           padding: 0.5rem;
           box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2) inset;
         }
