@@ -121,6 +121,4 @@
     }
 </script>
 
-<style scoped lang="scss">
-    @import "Home";
-</style>
+<style lang="scss" src="./Home.scss"></style>

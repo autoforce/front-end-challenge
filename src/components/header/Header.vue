@@ -125,6 +125,4 @@
     }
 </script>
 
-<style scoped lang="scss">
-    @import "Header";
-</style>
+<style lang="scss" src="./Header.scss"></style>

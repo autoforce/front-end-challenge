@@ -19,6 +19,4 @@
   }
 </script>
 
-<style scoped lang="scss">
-  @import "App";
-</style>
+<style lang="scss" src="./App.scss"></style>

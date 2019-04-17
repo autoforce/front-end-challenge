@@ -1,5 +1,5 @@
 <template>
-
+<div></div>
 </template>
 
 <script>
@@ -8,6 +8,4 @@
     }
 </script>
 
-<style scoped lang="scss">
-    @import "Footer";
-</style>
+<style lang="scss" src="./Footer.scss"></style>
